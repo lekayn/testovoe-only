@@ -1,0 +1,36 @@
+*{ 
+    padding: 0.1vh;
+    margin: 1vh;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+.AllBtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 105%;
+    opacity: 0.9;
+}
+.Msg{
+    border: 2px solid #ffa901;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
